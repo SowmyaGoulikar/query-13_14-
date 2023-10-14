@@ -1,0 +1,29 @@
+body{
+    background-color: azure;
+    background-image: url('bgimg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pageone {
+    border: 2px groove coral;
+    background-color: beige;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn btn-primary{
+    width: 40%;
+}
+input[type="text"], input[type="password"]{
+    width: 70%;
+    padding: 18px;
+    margin: 5px;
+    background-color: aquamarine;
+    border: 5px groove #e3a3e3;
+    font-size: 15px;
+    color: blueviolet;
+    border-radius: 25px;
+}

@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Multipage</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+    <body>
+        <h5 id="1stplayer_name"></h5><span id="1stplayer_score"></span>
+        <h5 id="2ndplayer_name"></h5><span id="2ndplayer_score"></span>
+        <div class="pencil">
+       <center>
+           <h6 id="player_question"></h6>
+           <h6 id="player_answer"></h6>
+           <div id="functionwrk" class="nothing"></div>
+           <div class="fifth">
+               <p>Let's play the Quiz</p>
+        <h4>Number 1</h4>
+           <input type="text" id="fan" class="form_control" placeholder="Enter any Number"><br>
+           <h4>Number 2</h4>
+           <input type="text" id="ac" class="form_control" placeholder="Enter any Number">
+        </div></center><br><br>
+        <center><button onclick= "show()" class="clicker"><b><i>Click here</i></b></button></center></div>
+         <script src="game_page.js"></script>
+    </body>
+    <style>
+        body{
+            background-image: url('addminus.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .fifth{
+            border: 4px groove darkgreen;
+            background-color: antiquewhite;
+            font-size: 20px;
+            color: crimson;
+            width: 70%;
+            padding: 8px;
+            margin: 50px;
+        }
+        .nothing{
+            height: 100px;
+            width: 60%;
+            margin: 10px;
+            background-color:lightpink;
+            border-radius: 40px;
+        }
+        .pencil{
+            height: 1000px;
+            width: 1200px;
+            border: 10px solid cornflowerblue;
+            margin: auto;
+            background-color: aliceblue;
+        }
+        .clicker{
+            height:45px;
+            width: 40%;
+            border-radius: 15px;
+            background-color: chartreuse;
+            font-size: 20px;
+            color: blueviolet;
+        }
+        .clicker:hover{
+            background-color: cornsilk;
+        }
+    </style>
+</html>
